@@ -1,0 +1,61 @@
+.contentInput {
+  display: grid;
+  grid-template-columns: 1fr 50px 50px;
+  margin: 12px 0;
+  background-color: var(--clr-light-blue);
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.labelInput {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 12px;
+}
+
+.labelInputCheckbox {
+  width: 20px;
+  height: 20px;
+}
+
+.labelInputTitle {
+  padding: 5px;
+  margin-left: 5px;
+  line-height: 1.2;
+}
+
+.labelInputTitleEdit {
+  font: 1rem/1em "Roboto", sans-serif;
+  border: 0;
+  padding: 5px;
+  background: none;
+  margin-left: 5px;
+  box-shadow: 0 1px var(--clr-blue);
+}
+
+.contentInputButtonEdit,
+.contentInputButtonRemove,
+.contentInputButtonSave {
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.contentInputButtonEdit:hover,
+.contentInputButtonRemove:hover,
+.contentInputButtonSave:hover {
+  opacity: 0.8;
+}
+
+.contentInputButtonEdit {
+  background-image: url("./images/edit.svg");
+}
+
+.contentInputButtonRemove {
+  background-image: url("./images/trash.svg");
+}
+
+.contentInputButtonSave {
+  background-image: url("./images/check.svg");
+}
