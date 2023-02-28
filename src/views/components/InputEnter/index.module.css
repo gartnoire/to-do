@@ -1,0 +1,32 @@
+.contentInput {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 45px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contentInputValue {
+  border: 1px solid var(--clr-light-gray);
+  border-radius: 5px 0 0 5px;
+  padding: 8px;
+  font: 1rem/1.4 "Roboto", sans-serif;
+  background-color: var(--clr-light-blue);
+}
+
+.contentInput::placeholder {
+  color: var(--clr-dark-gray);
+}
+
+.contentInputButton {
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--clr-blue);
+  background-image: url("./images/plus.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-in-out;
+}
+
+.contentInput:hover {
+  opacity: 0.8;
+}
