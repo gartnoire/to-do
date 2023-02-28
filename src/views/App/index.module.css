@@ -3,7 +3,6 @@
   min-width: 600px;
   border-radius: 20px;
   padding: 20px 55px;
-  margin-bottom: 15px;
 }
 
 .articleTitle {
@@ -14,5 +13,5 @@
 
 .articleSectionText {
   text-align: center;
-  margin-top: 15px;
+  margin: 15px 0 0;
 }

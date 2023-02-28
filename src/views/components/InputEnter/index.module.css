@@ -1,8 +1,15 @@
 .contentInput {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 45px;
   transition: all 0.2s ease-in-out;
+}
+
+.contentInput::placeholder {
+  color: var(--clr-dark-gray);
+}
+
+.contentInput:hover {
+  opacity: 0.8;
 }
 
 .contentInputValue {
@@ -13,10 +20,6 @@
   background-color: var(--clr-light-blue);
 }
 
-.contentInput::placeholder {
-  color: var(--clr-dark-gray);
-}
-
 .contentInputButton {
   border-left: 0;
   border-radius: 0 5px 5px 0;
@@ -25,8 +28,4 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.2s ease-in-out;
-}
-
-.contentInput:hover {
-  opacity: 0.8;
 }

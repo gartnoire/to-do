@@ -22,12 +22,10 @@
 .labelInputTitle {
   padding: 5px;
   margin-left: 5px;
-  line-height: 1.2;
 }
 
 .labelInputTitleEdit {
   font: 1rem/1em "Roboto", sans-serif;
-  border: 0;
   padding: 5px;
   background: none;
   margin-left: 5px;
